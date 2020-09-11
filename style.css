@@ -1,0 +1,1228 @@
+body {
+  margin: 0;
+  color: #333333;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+  width: 100%;
+}
+
+.header-list {
+  width: 1200px;
+  max-width: calc(100% - 20px);
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 0;
+  height: 50px;
+}
+
+.ressiryo {
+  display: none;
+}
+
+.header-logo {
+  height: 45px;
+  margin-bottom: -10px;
+}
+
+.header-list p {
+  font-size: 14px;
+}
+
+.header-title {
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.header-post {
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  top: 14px;
+  color: #fff;
+  padding: 5px 40px;
+  background-color: #da6b64;
+  border-radius: 25px;
+}
+
+.header-post:hover {
+  background-color: red;
+}
+
+.container {
+  display: block;
+  background-image: url(picture_pc_e9cd48501e8ad5f03a13bfefcf9e1f19.jpg);
+  height: 500px;
+  text-align: center;
+}
+
+.coment {
+  padding-top: 80px;
+  font-size: 20px;
+}
+
+.main-logo {
+  height: 110px;
+  margin-top: -20px;
+}
+
+.main-title-sub {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.sub-container {
+  background-color: #ebb94d;
+  margin-top: -20px;
+  height: 560px;
+  text-align: center;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.sub-container-title {
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+code {
+  font-weight: bold;
+  color: #da6b64;
+  background-color: white;
+  padding: 2px 4px;
+  font-size: 19px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.siryoseikyubotan {
+  max-width: 1028px;
+  margin: 0 auto;
+}
+
+.main-subr-post {
+  display: block;
+  background-color: #da6b64;
+  padding: 28px 200px;
+  border-radius: 50px;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.main-subr-post:hover {
+  background-color: red;
+}
+
+.uketuke {
+  padding-top: 10px;
+}
+
+.roku {
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.nana {
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.hati {
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.shere {
+  display: inline-block;
+}
+
+.twitter {
+  background-color: #1b95e0;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.facebook {
+  background-color: #4267b2;
+  padding: 4px 13px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 3px;
+  border-radius: 3px;
+  margin-right: 6px;
+}
+
+.shere-facebook {
+  background-color: #4267b2;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 3px;
+  border-radius: 3px;
+}
+
+.enzinia {
+  text-align: center;
+}
+
+.enzinia-title::before {
+  content: "「";
+  color: #ebb94d;
+  margin-right: 20px;
+  font-size: 70px;
+  font-weight: 200;
+}
+
+.enzinia-title::after {
+  content: "」";
+  color: #ebb94d;
+  margin-left: 30px;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.enzinia-title {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.enzinia-iti {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.enzinia-ni {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.enzinia-san {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.enzinia span {
+  font-weight: bold;
+  border-bottom: solid 6px #ebb94d;
+}
+
+.mountain {
+  height: 300px;
+  width: 100%;
+  margin-bottom: -29px;
+}
+
+codenes {
+  font-size: 15px;
+  color: white;
+  background-color: #ebb94d;
+  padding: 35px 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.maruabout {
+  text-align: center;
+}
+
+.nomadoenzinia {
+  background-color: #fef5e0;
+  text-align: center;
+  margin-top: -37px;
+  padding-bottom: 27px;
+}
+
+.isara {
+  display: block;
+  padding-top: 130px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+
+.isara::before {
+  content: "「";
+  color: #ebb94d;
+  font-size: 70px;
+  font-weight: normal;
+  margin-right: 70px;
+}
+
+.isara::after {
+  content: "」";
+  color: #ebb94d;
+  font-weight: normal;
+  font-size: 70px;
+  margin-left: 70px;
+}
+
+.kasegukoto {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.box {
+  background-color: white;
+  max-width: 70%;
+  margin: 0 auto;
+  border: 2px solid #ebb94d;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.box-nakami {
+  display: flex;
+  margin: 0 auto;
+}
+
+.box-title {
+  padding-top: 15px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.box-image {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.box-image-iti {
+  margin-right: 25px;
+}
+
+.box-image-ni {
+  margin-right: 25px;
+}
+
+.box-image-san {
+  margin-right: 25px;
+}
+
+.box-image-yon {
+  margin-right: 25px;
+}
+
+.tokutyou {
+  background-image: url(blogging-336375_640.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.toutyou-title {
+  padding-top: 60px;
+  font-size: 29px;
+}
+
+tokutyoucode {
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+
+.tokutyou span {
+  color: #ebb94d;
+  font-weight: bold;
+}
+
+.step-box {
+  padding-top: 20px;
+  display: inline-flex;
+  padding-bottom: 40px;
+}
+
+.step-box p {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.step-iti {
+  background-color: white;
+  color: black;
+  margin-right: 17px;
+  padding: 20px 60px;
+  border-radius: 6px;
+}
+
+step {
+  background-color: #ebb94d;
+  padding: 3px 90px;
+  color: white;
+  border-radius: 5px;
+}
+
+.bankoku {
+  font-size: 13px;
+}
+
+.important {
+  background-color: #016ea9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.important p {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.important span {
+  color: #ebb94d;
+}
+
+.study {
+  text-align: center;
+}
+
+.study-isara {
+  padding-top: 50px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.study span {
+  font-size: 15px;
+}
+
+.study-naiyou {
+  padding-top: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.study img {
+  width: 180px;
+}
+
+.salesslill {
+  margin-right: 40px;
+}
+
+.knowledge {
+  margin-right: 40px;
+}
+
+.skillup {
+  margin-right: 40px;
+}
+
+.freelance {
+  margin-right: 40px;
+}
+
+.tokutyo-matome {
+  padding-top: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.isara-work {
+  background-color: #fef5e0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.isara-work-title {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.isara-work-list {
+  display: inline-flex;
+  padding-bottom: 50px;
+}
+
+.isara-work-list img {
+  width: 370px;
+  height: 200px;
+}
+
+.coach {
+  text-align: left;
+  margin-right: 30px;
+}
+
+.entrepreneur-title {
+  color: #ebb94d;
+  font-size: 20px;
+  margin-top: -1px;
+}
+
+.zissen-study {
+  text-align: left;
+  margin-right: 30px;
+}
+
+.technology-title {
+  color: #ebb94d;
+  font-size: 20px;
+  margin-top: -1px;
+}
+
+.ryokin {
+  text-align: left;
+}
+
+.meeting {
+  height: 220px;
+}
+
+.meeting-title {
+  color: #ebb94d;
+  font-size: 20px;
+  margin-top: -1px;
+}
+
+.suport {
+  background-color: white;
+  width: 82%;
+  margin: 0 auto;
+  padding: 20px 0px;
+  border: solid 2px #ebb94d;
+  border-radius: 3px;
+}
+
+.suport-title {
+  color: #ebb94d;
+  font-size: 27px;
+  letter-spacing: 2px;
+}
+
+.suport-title-sub {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.suport-comment {
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.tyui {
+  padding: 30px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.syain-member {
+  background-image: url(jorge-vasconez-buYlndcNnjM-unsplash\\(1\).jpg);
+  background-size: covor;
+  margin-top: -30px;
+  text-align: center;
+  color: white;
+}
+
+.member-title {
+  padding-top: 90px;
+  font-size: 30px;
+}
+
+.member-syosa {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.free-kousi {
+  padding-top: 30px;
+  display: inline-flex;
+  padding-bottom: 50px;
+}
+
+.free-kousi img {
+  border-radius: 50%;
+  margin-bottom: -40px;
+}
+
+.sometani {
+  margin-right: 30px;
+}
+
+.kousisyosai {
+  border: 3px solid white;
+  padding: 20px 50px;
+}
+
+.enzinia-kousi {
+  display: inline-flex;
+  padding-bottom: 50px;
+}
+
+.enzinia-kousi img {
+  margin-bottom: -40px;
+}
+
+.ootaki {
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+
+.qanda {
+  background-color: #ebb94d;
+  padding: 50px 0;
+  text-align: center;
+}
+
+enquestion {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 50%;
+  color: #ebb94d;
+}
+
+.really {
+  padding-top: 20px;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.voise {
+  text-align: center;
+}
+
+.voise-title {
+  padding-top: 30px;
+  font-size: 28px;
+}
+
+.can {
+  font-weight: bold;
+  margin-top: -5px;
+  padding-bottom: 10px;
+}
+
+.voise-komezirusi {
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.busines-voise p {
+  margin-left: 25px;
+}
+
+.yokoda {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-right: 15px;
+}
+
+.yokodatake {
+  width: 240px;
+  border: 4px solid #ebb94d;
+}
+
+.yokoda-voise {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+.yokoda-voise span {
+  font-size: 16px;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+  line-height: 1em;
+}
+
+.sato {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.minami {
+  width: 240px;
+  border: 4px solid #ebb94d;
+}
+
+.asada {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.yuri {
+  width: 240px;
+  border: 4px solid #ebb94d;
+}
+
+.minami-voise {
+  float: left;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+.minami-voise span {
+  font-size: 16px;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+  line-height: 1em;
+}
+
+.asada {
+  padding-bottom: 30px;
+}
+
+.asada-voise {
+  float: left;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+.asada-voise span {
+  font-size: 16px;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+  line-height: 1em;
+}
+
+.tokoutyu {
+  background-image: url(picture_pc_c61a50ca0b2335d65a46645b73a2a480.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.tokoutyu-title {
+  padding-top: 70px;
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+.tokoutyuitiran {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 50px;
+}
+
+.hyou {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.tokoutyu-list {
+  margin-right: 30px;
+  width: 25%;
+  border: 2px solid #016ea9;
+  border-radius: 5px;
+}
+
+.hyou {
+  padding-bottom: 80px;
+}
+
+.hyou ul {
+  margin-right: 30px;
+}
+
+.hyou li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  border-bottom: 1.2px dotted #ddd;
+}
+
+.hyou-title {
+  background-color: #016ea9;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: -1px;
+  font-weight: normal;
+}
+
+.tokoutyu-list {
+  background-color: white;
+}
+
+.hyouni {
+  background-color: white;
+  width: 100%;
+  border: 2px solid #016ea9;
+  border-radius: 5px;
+}
+
+.kouzahiyo {
+  background-color: #016ea9;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.kouzahiyo-kaisetu {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.syukounagar {
+  text-align: center;
+}
+
+.syukounagare-title {
+  padding-top: 40px;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.nagareimg {
+  padding-bottom: 40px;
+}
+
+.itikadai,
+.nikadai,
+.sankadai,
+.yonkadai,
+.itinikadai {
+  display: flex;
+  background-color: #fef5e0;
+  width: 82%;
+  margin: 0 auto;
+}
+
+.zizenkadai img {
+  margin-left: 80px;
+  margin-top: 35px;
+}
+
+.zizenkadai h3 {
+  margin-left: 80px;
+}
+
+.zizenkadai-naiyo {
+  text-align: left;
+  margin-top: 35px;
+  margin-left: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.zizen-iti,
+.zizen-ni,
+.zizeno-iti,
+.zizeno-san,
+.zizenni-iti,
+.zizenni-san,
+.zizensan-iti,
+.zizensan-ni,
+.zizenyon-iti,
+.zizenyon-ni,
+.zizenyon-san {
+  font-weight: bold;
+}
+
+.zizen-san {
+  font-size: 13px;
+}
+
+.itikadai {
+  margin-bottom: -35px;
+}
+
+.itinikadai {
+  margin-top: -5px;
+  margin-bottom: -35px;
+}
+
+.itinikadai img {
+  margin-top: 70px;
+}
+
+.itinikadai h3 {
+  margin-left: 60px;
+}
+
+.zizen0-ni {
+  font-size: 13px;
+}
+
+.nikadai {
+  margin-top: -6px;
+  margin-bottom: -35px;
+}
+
+.sankadai {
+  margin-top: -6px;
+  margin-bottom: -35px;
+}
+
+.sankadai img {
+  margin-left: 100px;
+}
+
+.zizensan-san {
+  font-size: 14px;
+}
+
+.yonkadai img {
+  margin-left: 60px;
+}
+
+.yonkadai h3 {
+  margin-left: 60px;
+}
+
+.zizenkadai-title {
+  margin-right: -15px;
+}
+
+.yonkadai {
+  margin-top: -5px;
+}
+
+.syukounagar {
+  padding-bottom: 40px;
+}
+
+.why-bankoku {
+  background-image: url(city-4864747_640.jpg);
+  background-size: cover;
+  height: 500px;
+  color: white;
+  padding-left: 80px;
+}
+
+.why-title {
+  padding-top: 130px;
+}
+
+.about-bankoku {
+  opacity: 0.7;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.why-bankoku li {
+  list-style: disc;
+  margin-left: -20px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.kankyo {
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.sankatokuten {
+  background-color: #ebb94d;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.tokuten-title {
+  font-size: 29px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.tokuten {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.tokuten span {
+  color: black;
+}
+
+box-title-gift {
+  background-color: #ebb94d;
+  font-size: 28px;
+  letter-spacing: 2px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+.toku-list {
+  display: flex;
+  justify-content: center;
+}
+
+.tokuten-ni,
+.tokuten-san {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 50%;
+  margin-left: 60px;
+}
+
+.tokuten-iti {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 50%;
+}
+
+.tokuiti-title {
+  color: #ebb94d;
+  font-weight: normal;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+.tokunaiyou {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.resnaiyo {
+  display: none;
+}
+
+.toku-list {
+  border: 2px solid white;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  margin-top: -40px;
+}
+
+.sankatokuten {
+  padding-bottom: 50px;
+}
+
+.tuiki {
+  background-image: url(picture_pc_c61a50ca0b2335d65a46645b73a2a480.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+.tuiki-title {
+  padding-top: 30px;
+  letter-spacing: 2px;
+  font-size: 27px;
+}
+
+.tuki-sub-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.haisyutu {
+  font-size: 30px;
+}
+
+.haisyutu::before {
+  content: "「";
+  margin-right: 100px;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.haisyutu::after {
+  content: "」";
+  margin-left: 100px;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.kati {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sougyousya {
+  padding-top: 50px;
+  font-size: 27px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.nomadolife {
+  letter-spacing: 3px;
+}
+
+.messeage {
+  text-align: center;
+}
+
+.sometanikeisuke {
+  height: 140px;
+}
+
+.keisukepro {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.koment {
+  text-align: left;
+  margin-left: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 18px;
+}
+
+.sometanikeisuke {
+  margin-top: 18px;
+  margin-left: 30px;
+}
+
+.siryo {
+  background-color: #ebb94d;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.form-title-siryo {
+  padding-top: 50px;
+  font-size: 28px;
+}
+
+.siryoseikyu {
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+#sei {
+  padding: 10px;
+  width: 60%;
+  height: 35px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#mail {
+  padding: 10px;
+  width: 60%;
+  height: 35px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  border: none;
+  height: 100px;
+  width: 60%;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+#submit {
+  background-color: #da6b64;
+  border: none;
+  color: white;
+  height: 55px;
+  width: 60%;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 25px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.question-title {
+  text-align: center;
+}
+
+.question {
+  display: block;
+  border: 1px solid #ddd;
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.answer {
+  display: none;
+}
+
+.fa-question-circle:hover {
+  border-bottom: 2px solid black;
+}
+
+.question::after {
+  content: "+";
+  float: right;
+  padding-right: 10px;
+  color: #ececec;
+}
+
+.footer {
+  background-color: #ececec;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.blue a {
+  color: #337ab7;
+}
+
+.footer p {
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.shere {
+  padding-bottom: 20px;
+}
+
+.hyouzi {
+  display: none;
+  font-weight: bold;
+}
+
+.resbr {
+  display: none;
+}

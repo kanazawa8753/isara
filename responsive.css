@@ -1,0 +1,636 @@
+@media (max-width: 670px) {
+  .header-logo {
+    float: left;
+    height: 30px;
+  }
+
+  .header-list {
+    height: 37px;
+    max-width: 100%;
+    display: flex;
+  }
+
+  .ressiryo {
+    display: block;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    padding: 9px 15px;
+    background-color: #da6b64;
+  }
+
+  .header-post-sub {
+    font-size: 15px;
+  }
+  .header-list p {
+    font-size: 10px;
+  }
+
+  .header-post {
+    display: none;
+  }
+
+  .sub-container p {
+    font-size: 15px;
+  }
+
+  .sub-container code {
+    font-size: 15px;
+  }
+  .container {
+    height: 350px;
+  }
+  .main-title,
+  .main-title-sub {
+    font-size: 15px;
+  }
+
+  .sub-container {
+    font-size: 15px;
+    height: 590px;
+  }
+
+  .main-subr-post {
+    font-size: 18px;
+  }
+
+  .enzinia h2 {
+    font-size: 15px;
+  }
+
+  .enzinia p {
+    font-size: 15px;
+  }
+
+  .resbr {
+    display: block;
+  }
+
+  codenes {
+    padding: 25px 7px;
+    font-size: 13px;
+  }
+
+  .isara {
+    font-size: 15px;
+  }
+
+  .kasegukoto {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .box-title {
+    padding-top: 15px;
+    font-size: 15px;
+  }
+
+  .box {
+    height: 250px;
+    width: 100%;
+  }
+
+  .skills,
+  .sales,
+  .document,
+  .plusone,
+  .connection {
+    height: 30px;
+  }
+
+  .box-nakami p {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .toutyou-title {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  tokutyoucode {
+    font-size: 12px;
+  }
+
+  .step-box {
+    display: inline-block;
+    margin-left: 7px;
+    width: 100%;
+  }
+
+  .step-box p {
+    font-size: 12px;
+  }
+
+  .stepnakami {
+    margin-top: -20px;
+  }
+
+  .step-iti {
+    margin-bottom: 20px;
+    height: 60px;
+  }
+
+  .important p {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
+
+  .study-isara {
+    font-size: 18px;
+  }
+  .study-naiyou {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+
+  .tokutyo-list img {
+    height: 130px;
+    width: 120px;
+    margin-right: -1px;
+  }
+
+  .tokutyo-matome {
+    font-size: 14px;
+  }
+
+  .isara-work-list {
+    display: inline-block;
+  }
+
+  .waku span {
+    font-size: 14px;
+  }
+
+  .isara-work-list img {
+    height: 120px;
+    width: 100%;
+  }
+
+  .meeting {
+    width: 80%;
+  }
+
+  .isara-work-list p {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 12px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+  }
+
+  .coach,
+  .zissen-study {
+    margin-left: 20px;
+  }
+
+  .coach,
+  .zissen-study,
+  .ryokin {
+    text-align: center;
+  }
+
+  .ryokin p {
+    padding-left: 40px;
+  }
+
+  .isara-work-list br {
+    display: none;
+  }
+
+  .isara-work-list h3 {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .isara-work-list resbr {
+    display: block;
+  }
+
+  .suport h2 {
+    font-size: 18px;
+    margin-top: -2px;
+  }
+
+  .suport h3 {
+    font-size: 16px;
+  }
+
+  .suport p {
+    font-size: 10px;
+  }
+
+  .suport {
+    margin-top: -30px;
+    height: 160px;
+    width: 95%;
+  }
+
+  .tyui {
+    font-size: 12px;
+  }
+
+  .member-title {
+    font-size: 16px;
+  }
+
+  .member-syosai {
+    font-size: 12px;
+    padding-top: 30px;
+  }
+
+  .free-kousi {
+    display: block;
+  }
+
+  .keisuke,
+  .yuki,
+  .shohey,
+  .bandai {
+    height: 100px;
+  }
+
+  .sometani br {
+    display: none;
+  }
+
+  .ootaki br {
+    display: none;
+  }
+
+  .manabu br {
+    display: none;
+  }
+
+  .sometani {
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+
+  .sometani,
+  .ootaki,
+  .manabu p {
+    font-size: 12px;
+  }
+
+  .narita p {
+    font-size: 12px;
+  }
+
+  .enzinia-kousi {
+    display: block;
+  }
+
+  .sometani,
+  .narita,
+  .ootaki,
+  .manabu {
+    width: 90%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+
+  .ootaki {
+    margin-top: -50px;
+  }
+
+  .narita br {
+    display: none;
+  }
+
+  .busines-voise span {
+    font-size: 15px;
+  }
+
+  .busines-voise img {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .busines-voise {
+    margin-left: 20px;
+  }
+
+  .qanda {
+    height: 130px;
+  }
+
+  .really {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 40px;
+  }
+
+  .voise-title {
+    font-size: 18px;
+  }
+
+  .can {
+    font-size: 13px;
+  }
+
+  .voise-komezirusi {
+    font-size: 13px;
+  }
+
+  .tokoutyu-title {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  .tokoutyuitiran {
+    font-size: 13px;
+  }
+
+  .hyou {
+    display: inline-block;
+  }
+
+  .tokoutyu-list {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .hyouni {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: -40px;
+  }
+
+  .hyou h2 {
+    font-size: 15px;
+  }
+
+  .hyou li {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+
+  .kouzahiyo-kaisetu {
+    margin-top: -2px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .kouzahiyo {
+    height: 40px;
+  }
+
+  .syukounagare-title {
+    font-size: 18px;
+  }
+
+  .nagareimg,
+  .line-iti {
+    display: none;
+  }
+
+  .why-title {
+    margin-top: -60px;
+    text-align: center;
+    padding-top: initial;
+    padding-top: 50px;
+    letter-spacing: 1px;
+  }
+
+  .why-bankoku li {
+    font-size: 10px;
+  }
+
+  .kankyo {
+    font-size: 12px;
+  }
+
+  .why-bankoku {
+    height: 350px;
+    padding-left: initial;
+    padding-left: 40px;
+  }
+
+  .tokuten-title {
+    font-size: 18px;
+  }
+
+  .tokuten {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2px;
+  }
+
+  box-title-gift {
+    font-size: 18px;
+    padding-left: initial;
+  }
+
+  .toku-list {
+    display: block;
+  }
+
+  .tokuten-iti,
+  .tokuten-ni,
+  .tokuten-san {
+    display: flex;
+    justify-content: left;
+    background-color: initial;
+  }
+
+  .tokuten-ni,
+  .tokuten-san {
+    margin-left: initial;
+  }
+
+  .tokuiti-title {
+    background-color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 25px 22px;
+    border-radius: 50%;
+    margin-bottom: -40px;
+    margin-left: 30px;
+  }
+
+  .toku-list p {
+    color: white;
+    font-size: 8px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .toku-list br {
+    display: none;
+  }
+
+  .toku-list {
+    padding-top: initial;
+    height: 280px;
+    width: 95%;
+  }
+
+  .tokunaiyou {
+    display: none;
+  }
+
+  .resnaiyo {
+    display: block;
+  }
+
+  .tuiki-title {
+    font-size: 18px;
+  }
+
+  .tuki-sub-title {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .haisyutu {
+    font-size: 14px;
+  }
+
+  .kati {
+    font-size: 14px;
+  }
+
+  .sougyousya {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .nomadolife {
+    font-size: 14px;
+  }
+
+  .keisukepro {
+    display: block;
+    justify-content: center;
+  }
+
+  .sometanikeisuke {
+    width: 90%;
+    height: 420px;
+    margin: initial;
+  }
+
+  .keisukepro p {
+    font-size: 13px;
+  }
+
+  .keisukepro {
+    margin-bottom: -40px;
+  }
+
+  .form-title-siryo {
+    font-size: 18px;
+  }
+
+  .siryoseikyu {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  #sei {
+    width: 100％;
+  }
+
+  #mail {
+    width: 100％;
+  }
+
+  textarea {
+    width: 100％;
+  }
+
+  #submit {
+    width: 100％;
+  }
+
+  .zizenkadai p {
+    display: none;
+    font-size: 12px;
+    float: left;
+  }
+
+  .zizenkadai img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: initial;
+    margin-top: initial;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .zizenkadai br {
+    display: none;
+  }
+
+  .zizenkadai {
+    padding-bottom: 70px;
+    width: 100%;
+  }
+
+  .zizenkadai-title {
+    display: flex;
+  }
+
+  .itikadai,
+  .nikadai,
+  .sankadai,
+  .yonkadai,
+  .itinikadai {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .syukounagar {
+    padding-bottom: 50px;
+  }
+
+  .zizenkadai h3 {
+    font-size: 16px;
+    margin-left: -1px;
+    padding-left: 15px;
+    letter-spacing: 3px;
+  }
+
+  .zizenkadai h3:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+  }
+
+  .zizenkadai h3::after {
+    content: "▼";
+    margin-right: 0px;
+    float: right;
+  }
+
+  .question-title {
+    font-size: 18px;
+    padding: 20px 0px;
+  }
+
+  .question {
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+    width: 90%;
+  }
+
+  .answer {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 28px;
+  }
+
+  .question-listiti br {
+    display: none;
+  }
+}
