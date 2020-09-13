@@ -1,4 +1,4 @@
-@media (max-width: 670px) {
+@media (max-width: 480px) {
   .header-logo {
     float: left;
     height: 30px;
@@ -32,35 +32,57 @@
   }
 
   .sub-container p {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .sub-container code {
-    font-size: 15px;
+    font-size: 12px;
   }
+
   .container {
-    height: 350px;
+    height: 300px;
   }
+
   .main-title,
   .main-title-sub {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .sub-container {
-    font-size: 15px;
-    height: 590px;
+    font-size: 12px;
+    height: 430px;
   }
 
   .main-subr-post {
-    font-size: 18px;
+    font-size: 12px;
+    height:30px;
+    padding:initial;
+    padding:20px 0px;
   }
 
   .enzinia h2 {
-    font-size: 15px;
+    font-size: 1px;
+  }
+  .enzinia-title::before{
+    font-size:20px;
+  }
+
+  .enzinia-title::after{
+    font-size:20px;
+  }
+
+  .isara::before {
+    font-size:20px;
+    margin-right: 35px;
+  }
+
+  .isara::after {
+    font-size:20px;
+    margin-left: 35px;
   }
 
   .enzinia p {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .resbr {
@@ -73,22 +95,22 @@
   }
 
   .isara {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .kasegukoto {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
   }
 
   .box-title {
     padding-top: 15px;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .box {
     height: 250px;
-    width: 100%;
+    max-width: 100%;
   }
 
   .skills,
@@ -100,12 +122,12 @@
   }
 
   .box-nakami p {
-    font-size: 10px;
-    letter-spacing: 2px;
+    font-size: 4px;
+    letter-spacing: 1px;
   }
 
   .toutyou-title {
-    font-size: 16px;
+    font-size: 10px;
     letter-spacing: 2px;
   }
 
@@ -146,8 +168,8 @@
   }
 
   .tokutyo-list img {
-    height: 130px;
-    width: 120px;
+    height: 110px;
+    width: 100px;
     margin-right: -1px;
   }
 
@@ -218,7 +240,7 @@
   }
 
   .suport p {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .suport {
@@ -300,12 +322,16 @@
   }
 
   .busines-voise span {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .busines-voise img {
-    width: 200px;
+    width: 100px;
     margin-top: 20px;
+  }
+
+  .yuri{
+    height:100px;
   }
 
   .busines-voise {
@@ -317,21 +343,26 @@
   }
 
   .really {
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 2px;
     line-height: 40px;
   }
 
   .voise-title {
-    font-size: 18px;
+    font-size: 14px;
   }
+
+  .busines-voise p{
+    font-size:12px;
+  }
+
 
   .can {
     font-size: 13px;
   }
 
   .voise-komezirusi {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .tokoutyu-title {
@@ -340,7 +371,7 @@
   }
 
   .tokoutyuitiran {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .hyou {
@@ -405,7 +436,7 @@
   }
 
   .why-bankoku {
-    height: 350px;
+    height: 370px;
     padding-left: initial;
     padding-left: 40px;
   }
@@ -421,8 +452,9 @@
   }
 
   box-title-gift {
-    font-size: 18px;
+    font-size: 13px;
     padding-left: initial;
+
   }
 
   .toku-list {
@@ -445,11 +477,12 @@
   .tokuiti-title {
     background-color: white;
     font-weight: bold;
-    font-size: 12px;
-    padding: 25px 22px;
+    font-size: 10px;
+    padding: 35px 20px;
     border-radius: 50%;
     margin-bottom: -40px;
     margin-left: 30px;
+    width:60px;
   }
 
   .toku-list p {
@@ -466,7 +499,7 @@
 
   .toku-list {
     padding-top: initial;
-    height: 280px;
+    height: 300px;
     width: 95%;
   }
 
@@ -485,6 +518,16 @@
   .tuki-sub-title {
     font-size: 12px;
     letter-spacing: 1px;
+  }
+
+  .haisyutu::after {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .haisyutu::before {
+    margin-right: 20px;
+    font-size: 30px;
   }
 
   .haisyutu {
@@ -533,22 +576,22 @@
   }
 
   #sei {
-    width: 100％;
+    max-width: 100％;
   }
 
   #mail {
-    width: 100％;
+    max-width: 100％;
   }
 
   textarea {
-    width: 100％;
+    max-width: 100％;
   }
 
   #submit {
-    width: 100％;
+    max-width: 100％;
   }
 
-  .zizenkadai p {
+  .zizenkadai-naiyo{
     display: none;
     font-size: 12px;
     float: left;
@@ -560,7 +603,7 @@
     float: left;
     margin-left: initial;
     margin-top: initial;
-    margin-top: 10px;
+    margin-top: -20px;
     margin-left: 10px;
   }
 
@@ -569,7 +612,7 @@
   }
 
   .zizenkadai {
-    padding-bottom: 70px;
+    padding-bottom: 180px;
     width: 100%;
   }
 
@@ -588,11 +631,11 @@
   }
 
   .syukounagar {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   .zizenkadai h3 {
-    font-size: 16px;
+    font-size: 14px;
     margin-left: -1px;
     padding-left: 15px;
     letter-spacing: 3px;
@@ -615,7 +658,7 @@
   }
 
   .question {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: bold;
     height: 20px;
     padding-bottom: 10px;
